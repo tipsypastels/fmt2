@@ -136,7 +136,7 @@
   <strong>Tip:</strong> 
   
   {#if mode === 'input'}
-    Paste into the box above!
+    Paste Discord logs into the box above to nicely format!
   {:else}
     Click individual messages to toggle highlighting (<button on:click={advanceBoldFormat}>{BOLD_FORMATS[boldFormat].name}</button>). Once you're ready, <button on:click={copy}>click here to copy</button> or <button on:click={reset}>reset fmt</button>.
 
